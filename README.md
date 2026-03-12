@@ -8,7 +8,7 @@ AI Study Assistant is a full‑stack Next.js app that connects to Google Classro
 - **UI**: React + Tailwind CSS (dark, responsive dashboard)
 - **Auth**: Google OAuth 2.0 via NextAuth
 - **APIs**: Google Classroom API, Google Gemini API
-- **Deployment**: Vercel
+
 
 ---
 
