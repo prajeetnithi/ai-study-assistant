@@ -47,7 +47,6 @@ NEXTAUTH_SECRET=your_random_long_secret
 NEXTAUTH_URL=http://localhost:3000
 ```
 
-On Vercel, add the same variables in the project settings (Environment Variables).
 
 ---
 
@@ -110,23 +109,5 @@ npm run dev
 
 ---
 
-### Deployment to Vercel
 
-1. Push this project to GitHub/GitLab/Bitbucket.
-2. Go to `https://vercel.com/new`, import the repo, and select **Next.js** framework.
-3. In “Environment Variables”, add:
-
-   - `GEMINI_API_KEY`
-   - `GOOGLE_CLIENT_ID`
-   - `GOOGLE_CLIENT_SECRET`
-   - `NEXTAUTH_SECRET`
-   - `NEXTAUTH_URL` set to `https://your-vercel-domain.vercel.app`
-
-4. Deploy.
-
-Once deployed:
-
-- Visit your Vercel URL.
-- Sign in with Google.
-- The same dashboard experience will be available in production.
 
